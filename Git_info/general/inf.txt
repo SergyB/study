@@ -1,5 +1,9 @@
 Вначале задаем для логов свое имя и мыло
+git gonfig --list
+git config --global --list
 
+git config --global user.name 'name'
+git config --global user.email 'pochta_61@mail.ru'
 
 
 находясь в текущей паке мы должны "поселить" git
@@ -58,6 +62,26 @@ git push
 В пустой папке команда
 git clone https://github.com/SergyB/study.git
 
+Чтобы выталкивать изменения клона юзаем
+git commit -a -m'сообщение'
+git push
+
+Чтобы апдейтить с githab юзаем
+git pull
+
+
+
+
+=====
+Ветвления
+Ветка - нужна для расширения т.е. ведется паралельная разработка от ветки master.
+При слиянии одно наложется на другое, поэтому нужно аккуратней
+
+git branch - показывает все ветки и ветку, на которой мы находимся
+
+2 способа создания ветки
+git branch branch2 - создаем ветку branch2
+git checkout branch2  - переключение между ветками
 
 
 
