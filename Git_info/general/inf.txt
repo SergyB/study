@@ -58,6 +58,7 @@ git push
 В пустой папке команда
 git clone https://github.com/SergyB/study.git
 
+master commit
 
 
 
