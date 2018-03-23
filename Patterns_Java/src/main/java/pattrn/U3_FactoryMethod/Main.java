@@ -22,7 +22,7 @@ public class Main {
         //Вариант один посовывание
         //WatchMaker maker = new DigitalWatchMaker();
 
-        //Вариант два посовывание
+        //Вариант два подсовывание
         WatchMaker maker = getMakerByName("Digital");
 
 
